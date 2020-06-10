@@ -16,7 +16,8 @@ function header(props){
                         <Navbar.Brand href="#home">
                         <img
                              alt=""
-                            //  src={{logo}}
+                             src="vercel.svg"
+                            
                         />{' '}
                         Bebesuco
                         </Navbar.Brand>
