@@ -23,7 +23,7 @@ function navBar(props) {
             Sucursales
             </Nav.Link>
         </Nav.Item>
-        <DropDown handleSelect={handleSelect()}></DropDown>
+        <DropDown ></DropDown>
         </Nav>
     );
 }

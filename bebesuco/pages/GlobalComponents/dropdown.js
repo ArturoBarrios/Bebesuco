@@ -6,7 +6,7 @@ function navBar(props) {
     // const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
     return (
-        <Nav variant="pills" activeKey="1" onSelect={props.handleSelect}>
+        <Nav variant="pills" activeKey="1" onSelect={props.handleSelectFunction}>
             <NavDropdown title="Productos" id="nav-dropdown">
                 <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
                 <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
