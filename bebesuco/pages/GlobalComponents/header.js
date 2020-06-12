@@ -6,20 +6,26 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 
+
 function header(props){
     const NavBarDropDown = props.nav;
     return(
        
            
-            <div style={{"background-color": "#2e3133"}} >
-                    <Navbar style={{height: "200px"}} sticky="top"  >
+            <div style={props.headerStyle}>
+                {/* <div > */}
+                
+                       
+                {/* </div> */}
+                    <Navbar style={props.navBarStyle} sticky="top"  >
+                    <img
+                        alt=""
+                        src="logo.png"
+                        style={props.imageStyle}
+                        />
                         <Navbar.Brand href="#home">
-                        <img
-                             alt=""
-                             src="vercel.svg"
-                            
-                        />{' '}
-                        Bebesuco
+                        
+                    
                         </Navbar.Brand>
                     </Navbar>
             
