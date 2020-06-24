@@ -12,7 +12,7 @@ function header(props){
     return(
        
            
-            <div style={props.headerStyle}>
+            <div style={{width: "100%"}}>
                 {/* <div > */}
                 
                        
