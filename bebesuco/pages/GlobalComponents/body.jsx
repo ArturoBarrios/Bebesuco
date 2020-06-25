@@ -6,11 +6,11 @@ import Carousel from './ProductCarousel'
 
         function Body(props){
             return(
-                <div >
+                <div className="container" >
                     
                     <main>
-                    <Carousel></Carousel>
-                        <Cards></Cards>
+                      <Carousel></Carousel>
+                       
                         
                     </main>
                     <style jsx>{`
@@ -24,6 +24,8 @@ import Carousel from './ProductCarousel'
           justify-content: center;
           align-items: center;
           width: 100%
+          
+        
 
        
     }
@@ -43,6 +45,7 @@ import Carousel from './ProductCarousel'
           flex: 1;
           display: flex;
           flex-direction: column;
+          
           
         //   justify-content: center;
         //   align-items: center;
